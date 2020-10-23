@@ -3,7 +3,6 @@
     <div class="left-box">
       <div class="icon-wrapper">
         <span @click="$router.replace('/')" class="iconfont icon-home"></span>
- 
       </div>
       <div class="history-wrapper">
         <span @click="$router.go(-1)" class="iconfont icon-arrow-lift"></span>
@@ -20,24 +19,23 @@
 
 <script>
 export default {
-  name: 'top',
-  data(){
+  name: "top",
+  data() {
     return {
-      query:''
-    }
+      query: "",
+    };
   },
-  methods:{
-    toResult(){
-      if(!this.query){
-        this.$message.warning('请输入查询内容')
-      }else{
-        this.$router.push(`/result?keywords=${this.query}`)
+  methods: {
+    toResult() {
+      if (!this.query) {
+        this.$message.warning("请输入查询内容");
+      } else {
+        this.$router.push(`/result?keywords=${this.query}`);
       }
-    }
+    },
   },
 };
 </script>
 
 <style lang="scss" scoped>
-
 </style>

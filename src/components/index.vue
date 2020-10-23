@@ -1,6 +1,6 @@
 <template>
   <div class="index-container">
-    <div class="nav" >
+    <div class="nav">
       <ul>
         <li>
           <router-link to="/discovery">
@@ -39,16 +39,15 @@
 
 <script>
 export default {
-  name: 'index',
+  name: "index",
   data() {
     return {
       activeIndex: 0,
-      url:""
+      url: "",
     };
-  }
+  },
 };
 </script>
 
 <style lang="scss">
-
 </style>
