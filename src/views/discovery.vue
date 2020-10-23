@@ -42,26 +42,7 @@
         </div>
       </div>
     </div>
-    <!-- 推荐MV -->
-    <div class="mvs">
-      <h3 class="title">推荐MV</h3>
-      <div class="items">
-        <div class="item" v-for="item in mv" :key="item.id">
-          <div class="img-wrap" @click="toMv(item.id)">
-            <img :src="item.picUrl" alt="" />
-            <span class="iconfont icon-play"></span>
-            <div class="num-wrap">
-              <div class="iconfont icon-play"></div>
-              <div class="num">{{item.playCount}}</div>
-            </div>
-          </div>
-          <div class="info-wrap">
-            <div class="name">{{item.copywriter}}</div>
-            <div class="singer">{{item.artistName}}</div>
-          </div>
-        </div>
-      </div>
-    </div>
+
   </div>
 </template>
 

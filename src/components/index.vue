@@ -9,6 +9,12 @@
           </router-link>
         </li>
         <li>
+          <router-link to="/mvs">
+            <span class="el-icon-ice-drink"></span>
+            观看MV
+          </router-link>
+        </li>
+        <li>
           <router-link to="/playlists">
             <span class="el-icon-ice-tea"></span>
             推荐歌单
@@ -18,12 +24,6 @@
           <router-link to="/songs">
             <span class="el-icon-milk-tea"></span>
             最新音乐
-          </router-link>
-        </li>
-        <li>
-          <router-link to="/mvs">
-            <span class="el-icon-ice-drink"></span>
-            最新MV
           </router-link>
         </li>
       </ul>

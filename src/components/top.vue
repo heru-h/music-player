@@ -2,7 +2,7 @@
   <div class="top-container">
     <div class="left-box">
       <div class="icon-wrapper">
-        <span @click="$router.replace('/')" class="iconfont icon-home"></span>
+        <img src='/assets/home.jpg' @click="$router.replace('/')" index=5>
       </div>
       <div class="history-wrapper">
         <span @click="$router.go(-1)" class="iconfont icon-arrow-lift"></span>

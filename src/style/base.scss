@@ -1141,28 +1141,8 @@ ol {
     display: flex;
     // 图标
     .icon-wrapper {
-      margin-right: 80px;
-      .iconfont {
-        margin-right: 10px;
-        font-size: 12px;
-        width: 30px;
-        height: 30px;
-        display: inline-block;
-        text-align: center;
-        line-height: 30px;
-        &::before {
-          opacity: 0;
-          transition: 0.2s;
-        }
-        &:hover::before {
-          opacity: 1;
-        }
-        &.icon-home {
-          background-color: #dd6d60;
-          border-radius: 50%;
-        }
-
-      }
+      display: flex;
+      align-items: center;
     }
     // 历史管理
     .history-wrapper {
