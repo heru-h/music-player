@@ -4,25 +4,25 @@
       <ul>
         <li>
           <router-link to="/discovery">
-            <span class="iconfont icon-find-music"></span>
+            <span class="el-icon-coffee"></span>
             发现音乐
           </router-link>
         </li>
         <li>
           <router-link to="/playlists">
-            <span class="iconfont icon-music-list"></span>
+            <span class="el-icon-ice-tea"></span>
             推荐歌单
           </router-link>
         </li>
         <li>
           <router-link to="/songs">
-            <span class="iconfont icon-music"></span>
+            <span class="el-icon-milk-tea"></span>
             最新音乐
           </router-link>
         </li>
         <li>
           <router-link to="/mvs">
-            <span class="iconfont icon-mv"></span>
+            <span class="el-icon-ice-drink"></span>
             最新MV
           </router-link>
         </li>

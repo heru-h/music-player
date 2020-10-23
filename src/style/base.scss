@@ -1144,11 +1144,11 @@ ol {
       .iconfont {
         margin-right: 10px;
         font-size: 12px;
-        width: 18px;
-        height: 18px;
+        width: 30px;
+        height: 30px;
         display: inline-block;
         text-align: center;
-        line-height: 18px;
+        line-height: 30px;
         &::before {
           opacity: 0;
           transition: 0.2s;
@@ -1160,14 +1160,7 @@ ol {
           background-color: #dd6d60;
           border-radius: 50%;
         }
-        &.icon-sami-select {
-          background-color: #dcc060;
-          border-radius: 50%;
-        }
-        &.icon-full-screen {
-          background-color: #84bb58;
-          border-radius: 50%;
-        }
+
       }
     }
     // 历史管理
