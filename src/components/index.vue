@@ -1,6 +1,6 @@
 <template>
   <div class="index-container">
-    <div class="nav">
+    <!-- <div class="nav">
       <ul>
         <li>
           <router-link to="/discovery">
@@ -27,7 +27,7 @@
           </router-link>
         </li>
       </ul>
-    </div>
+    </div> -->
     <div class="main">
       <router-view></router-view>
     </div>

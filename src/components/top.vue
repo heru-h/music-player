@@ -2,12 +2,40 @@
   <div class="top-container">
     <div class="left-box">
       <div class="icon-wrapper">
-        <img src='/assets/home.jpg' @click="$router.replace('/')" index=5>
+        <img src='../assets/home.jpg' @click="$router.replace('/')" height="30" width="30">
       </div>
       <div class="history-wrapper">
         <span @click="$router.go(-1)" class="iconfont icon-arrow-lift"></span>
         <span @click="$router.go(1)" class="iconfont icon-arrow-right"></span>
       </div>
+    </div>
+    <div class ='mid-box'>
+       <ul>
+        <li>
+          <router-link to="/discovery">
+            <span class="el-icon-coffee"></span>
+            发现音乐
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/mvs">
+            <span class="el-icon-ice-drink"></span>
+            观看MV
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/playlists">
+            <span class="el-icon-ice-tea"></span>
+            推荐歌单
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/songs">
+            <span class="el-icon-milk-tea"></span>
+            最新音乐
+          </router-link>
+        </li>
+      </ul>
     </div>
     <div class="right-box">
       <el-input size="small" @keyup.enter.native="toResult" placeholder="搜索" v-model.trim="query">
